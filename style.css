@@ -31,12 +31,61 @@
 
 
 .banner-container{
-    height: 100vh;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    height: 100vh   ;
     align-items: center;
+    background-color: rgb(41, 40, 40);
+
+
+
 }
 .banner-image{
-    width: 300px;
-    height: 100px;
+    width: 500px;
+    
+   
+}
+.banner-text{
+    align-items: center;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 800;
+}
+.description{
+    font-size: 26px;
+    padding: 20px opx;
+
+
+}
+
+.btn{
+    color: rgb(185, 104, 12);
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 5px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-image: url('/images/pngtree-business-finance-world-map-positioning-background-poster-image_201539.jpg');
+    
+
+
+}
+.about-title{
+   text-align: center;
+   padding: 10px;
+   background-color: black;
+
+}
+
+.service-area{
+
+    background-color: black;
+    
 }
