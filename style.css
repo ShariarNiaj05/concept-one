@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: wheat;
+}
+.menu-contain{
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(57, 2, 109);
+
+}
+.logo-photo{
+    width: 120px;
+    justify-content: left;
+    /* margin: 10px 30px -60px 100px; */
+}
+
+.menus{
+    display: flex;
+    
+}
+.item{
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 26px;
+
+}
+
+
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image{
+    width: 300px;
+    height: 100px;
+}
